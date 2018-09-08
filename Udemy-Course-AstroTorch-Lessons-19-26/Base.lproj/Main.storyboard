@@ -22,7 +22,7 @@
                                 <rect key="frame" x="44" y="111" width="94" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Change Color">
-                                    <color key="titleColor" red="0.21457367892728807" green="1" blue="0.21826454822428776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="1" green="0.97682823630421278" blue="0.29084342639279981" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YCy-nN-QNc"/>
