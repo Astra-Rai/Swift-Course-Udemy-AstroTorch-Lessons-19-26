@@ -9,14 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var screenIsRed = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 }
     @IBAction func buttonClicked(_ sender: Any) {
-    
-    self.view.backgroundColor = UIColor.red;
+        if(screenIsRed){
+          self.view.backgroundColor = UIColor.blue
+          screenIsRed = false
+        }else{
+        self.view.backgroundColor = UIColor.red
+        screenIsRed = true
+        }
     }
 }
-
